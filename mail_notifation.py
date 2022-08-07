@@ -33,8 +33,8 @@ class notice:
                 'content_text': msg # Anything you want.
                 # 'attachments': ['/Users/zyh/Documents/example.zip','/root/1.jpg'],  # Absolute path will be better.
                 }
-            server = zmail.server('904680136@qq.com', 'cigbftliuwlqbdde')
-            server.send_mail('lswtochinapt@163.com', mail)
+            server = zmail.server('qwf22d6@qq.com', 'cigbf2ddewlqbdde')
+            server.send_mail('xxxxxxx@163.com', mail)
             # server.send_mail(['foo@163.com','foo@126.com'],mail,cc=['bar@163.com'])
 
     # collecting all the necessary devices with multithread
