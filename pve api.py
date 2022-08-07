@@ -73,7 +73,7 @@ class Pve_api(object):
 
 
 if __name__ == '__main__':
-    op = Pve_api(ip='192.168.0.101', username='root@pam', password='GB2312')
+    op = Pve_api(ip='192.168.0.101', username='root@pam', password='xxxx')
     print(op.ticket)
     # it must run 'get_ticket()' first to get a new ticket when you do the 'op' down below
     # op.get_ticket()
